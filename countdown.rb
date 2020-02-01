@@ -8,5 +8,7 @@ while number > 0
 end
 
 def countdown_with_sleep(seconds)
-  seconds = sleep 5
+  sleep(seconds)
 end
+
+countdown_with_sleep(5)
